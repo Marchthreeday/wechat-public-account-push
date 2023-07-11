@@ -15,7 +15,14 @@ const USER_CONFIG = {
 
   PROVINCE: '河南',
   CITY: '濮阳',
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
 
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+  }
   USERS: [
     {
       // 想要发送的人的名字
@@ -23,21 +30,20 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o5gIU6SYK5j9CYHqrp_EkdAMzC28',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Ktdz23hPOYl24KVi2mgt7-bk-3zY_r49jHMSdN4KfvI',
+      useTemplateId: 'OvdX9bUvxEYJhoQndc7FVFf9XFoUMGfIDzPE-nU2aSU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '06-04',
-      festivals: [
+      //horoscopeDate: '06-04',
+      birthday0: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '猪猪', year: '1999', date: '04-18',
-        },
+        }
+      ],
+      birthday1: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '*生日', name: '香香', year: '1999', date: '03-03',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '07-23',
-        },
+          type: '*生日', name: '小刘', year: '1999', date: '03-03',
+        }
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -51,7 +57,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'JVxenTa6cV6oSfK5ik9Ven5ietzxZtGVUY7LF_TUsl0',
+  CALLBACK_TEMPLATE_ID: 'OvdX9bUvxEYJhoQndc7FVFf9XFoUMGfIDzPE-nU2aSU',
 
   CALLBACK_USERS: [
     {
