@@ -7,7 +7,7 @@ const USER_CONFIG = {
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  //APP_ID: '',
+  APP_ID: '',
 
   // 使用微信测试号时才需要填写：公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -82,12 +82,12 @@ const USER_CONFIG = {
       name: '猪猪',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'o5gIU6SYK5j9CYHqrp_EkdAMzC28',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'EN3vzQBNP8xuW6ihkOZGmKe2YQnGce1kE07aqS1KYBk',
       // 所在省份或城市，也可以不填
-      province: '河南',
+      province: '',
       // 所在城市或县区
       city: '濮阳市',
       // 新历生日, 仅用作获取星座运势, 格式必须
@@ -152,7 +152,7 @@ const USER_CONFIG = {
    * */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '河南',
+  PROVINCE: '',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
   CITY: '濮阳市',
 
