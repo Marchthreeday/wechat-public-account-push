@@ -93,7 +93,7 @@ const USER_CONFIG = {
       id: 'o5gIU6SYK5j9CYHqrp_EkdAMzC28',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '',
+      useTemplateId: 'EN3vzQBNP8xuW6ihkOZGmKe2YQnGce1kE07aqS1KYBk',
       // 所在省份或城市，也可以不填
       province: '河南',
       // 所在城市或县区
@@ -121,6 +121,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
       ],
+      
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
@@ -210,7 +211,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: 'o5gIU6cQA_9Uvv4lOKQgE7EWgPcY',
+  CALLBACK_TEMPLATE_ID: 'EN3vzQBNP8xuW6ihkOZGmKe2YQnGce1kE07aqS1KYBk',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -322,7 +323,7 @@ const USER_CONFIG = {
     } */
     // 你可以不断按格式往下增加
     // ...
-  ],
+  ]
 }
 
 module.exports = USER_CONFIG
