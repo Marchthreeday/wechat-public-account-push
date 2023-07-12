@@ -121,7 +121,8 @@ const USER_CONFIG = {
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
       ],
-      
+    },
+   ],
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
@@ -240,7 +241,8 @@ const USER_CONFIG = {
     } */
     // 你可以不断按格式往下增加
     // ...
-  ]
+  ],
+      
 }
 
 module.exports = USER_CONFIG
