@@ -23,9 +23,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '猪猪',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: ' ',
+      id: 'o5gIU6SYK5j9CYHqrp_EkdAMzC28',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '6RuCt_XmiiEWBb2BdGi15bz8K4l7aD-C-yc0F7AvxlI',
+      useTemplateId: 'FgERYcxynl68lP-FrfrBNSkoto0JMXR0Le045YGhWWw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '06-01',
       festivals: [
@@ -49,7 +49,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o5gIU6cQA_9Uvv4lOKQgE7EWgPcY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '6RuCt_XmiiEWBb2BdGi15bz8K4l7aD-C-yc0F7AvxlI',
+      useTemplateId: 'FgERYcxynl68lP-FrfrBNSkoto0JMXR0Le045YGhWWw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-10',
       festivals: [
