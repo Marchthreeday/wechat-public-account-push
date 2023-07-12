@@ -4,23 +4,15 @@ const USER_CONFIG = {
    * 基本配置
    */
   
-  // 使用的推送通道：['push-deer', 'wechat-test', 'server-chan', 'push-plus']
-  // 默认使用 【微信测试号】
-  // 使用【pushDeer】请填写 push-deer
-  // 使用【微信测试号】请填写 wechat-test
-  // 使用【方糖服务号】请填写 server-chan
-  // 使用【pushplus推送加服务号】请填写 push-plus
-  USE_PASSAGE: 'wechat-test',
-  
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: 'wx0cc312cd3da90d10',
+  //APP_ID: '',
 
   // 使用微信测试号时才需要填写：公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: 'cfb1ca67559c811de40fd26756685150',
+  APP_SECRET: '',
   
   // 为了避免推送服务器误将脚本列为恶意推送脚本，可设置每分钟脚本最大推送数
   // 每分钟脚本最大推送数，超过此数将会休眠1分钟后再发送剩余消息，不填则默认为5
@@ -99,7 +91,7 @@ const USER_CONFIG = {
       // 所在城市或县区
       city: '濮阳市',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      //horoscopeDate: '12-27',
+      //horoscopeDate: '06-01',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       //horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -186,10 +178,10 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '猪猪', year: '1999', date: '04-18', isShowAge: true,
+      type: '*生日', name: '猪猪', year: '1999', date: '04-18',
     },
     {
-      type: '*生日', name: '小刘', year: '1999', date: '03-03', isShowAge: true,
+      type: '*生日', name: '小刘', year: '1999', date: '03-03',
     }
     // 你可以不断按格式往下增加
     // ...
